@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        // Read the integer input
+        int i = scan.nextInt();
+        
+        // Read the Double input
+        double d = scan.nextDouble();
+        
+        // Consume the remaining newline
+        scan.nextLine();
+        
+        // Read the String input
+        String s = scan.nextLine();
+        
+        // Print the value in the required format
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+        
+        // Close the scanner
+        scan.close();
+    }
+}
